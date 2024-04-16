@@ -24,9 +24,11 @@ public class Tienda {
 		// Lógica para eliminar un cliente
 	}
 
-	public double calcularPrecioTotalPedido(Pedido pedido) {
-		return CalculadoraPrecios.calcularPrecio(pedido);
+	public  void realizarPedido(Cliente cliente, List<Producto> productos) {
+	
+		//Logica para realizar pedidos
 	}
+
 
 	// Otros métodos relacionados con la gestión de la tienda
 }
